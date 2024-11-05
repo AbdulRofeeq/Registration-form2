@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(7, 3, 70);  
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+}
+p{
+    text-align: center;
+    color: white;
+}
+label{
+    color: white;  
+}
+.info{
+    width: 500px;
+    display: block;
+    background-color: white;
+    color: black;
+    margin-bottom: 3%;
+}
+form{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
+}
+fieldset{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: gray;
+}
+input{
+    margin-bottom: 4%;
+}
+.pic{
+    border-top: 2%;
+    border-left: 2%;
+}
+.bio{
+    background-color:  white;
+    color: black;
+    font-size: large;
+}
+.submit{
+    text-align: center;
+    color:  black;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+@media (min-width: 360px) and (max-width: 600px) {
+    h1{
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .info{
+        width: 200px;
+    }
+    .bio{
+      width: 220px;
+    }
+    .select{
+        width: 200px;
+    }
+    form{
+        margin-left: none;
+    }
+    body{
+        margin-left: none;
+        text-align: left;
+    }
+    
+}
+

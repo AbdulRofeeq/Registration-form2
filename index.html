@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link  rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <p>please fill out this form with <br>the required information</p>
+    <form action="submit">
+        <fieldset>
+        <label for="Name" class="space">Enter Your First Name:
+        <input type="text" class="info">
+    </label>
+    <label for="Name"> Enter Your Last Name:
+        <input type="text" class="info">
+    </label>
+    <label for="mail">Enter Your Mail:
+        <input type="email" class="info">
+    </label>
+    <label for="security">Enter A New Password:
+        <input type="password" name="password" id="password" class="info">
+    </label>
+    </fieldset>
+
+    <fieldset>
+    <label><input type="radio" name="personal">Personal Account</label> <br>
+    <label><input type="radio" name="personal">Buisness Account</label> <br>
+<label for="terms"><input type="checkbox"> I accept the <a href="#">terms and conditions</a> 
+</label> <br>
+</fieldset>
+<label for="pic">Upload a profile picture
+    <input type="file" class="info">
+</label>
+<label for="about">How did you hear about us?</label>
+<select id="about" name="cars" size="1" class="select">
+<option value="media">Social Media(Facebook,instagram,Twitter,Linkedln)</option>
+<option value="advert">Online Advertisement/Print Media</option>
+<option value="ref">Referral/Partner Program</option>
+<option value="pod">Podcast/Radio</option>
+<option value="other">Other</option>
+</select>
+<label for="bio">Provide a bio</label>
+<textarea name="bio" id="bio" cols="55" rows="4" class="bio"></textarea> <br>
+<div class="submit">
+<button type="submit" class="submit">Submit</button>
+</div>
+    </form>
+</body>
+</html>
